@@ -13,12 +13,24 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private String program;
+  
   
   /**
    * A constructor to pass in the given ID and then name
    * @param givenID - the ID to assign
    * @param givenName- the name to assign 
    */
+  
+  public void getProgram(String program)
+  {
+     this.program = program;
+  }
+  String getProgram()
+  {
+      return program;
+  }
+  
   public StudentDemo(String givenID, String givenName)
   {
       studentID = givenID;
