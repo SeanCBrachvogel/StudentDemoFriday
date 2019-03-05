@@ -9,5 +9,38 @@ and open the template in the editor.
 */
 
 body{
-	background-color: chocolate;
+	background-color: #363736;
+}
+#groupinfo{
+	width:25%;
+	color:white;
+	margin:2%;
+	display:inline-block;
+}
+#groupinfo >div{
+	margin:1%;
+}
+
+header{
+	font-size:100%;
+	padding:1em;
+	display:flex;
+	background-color:#76ae40;
+	justify-content:space-around;
+	flex-direction:row;
+}
+header >div{
+	background:#b3c9b047;
+	padding:1.2em;
+	border-radius:1em;
+}
+#desc{
+	color:white;
+	margin: 2%;
+	position:absolute;
+	display:inline-block;
+}
+#desc > li{
+	
+	padding:2%;
 }
