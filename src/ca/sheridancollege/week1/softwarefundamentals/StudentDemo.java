@@ -16,6 +16,9 @@ public class StudentDemo
   private String program;
   private String course;
   private String demo;
+  private String github;
+ 
+  
   
   
   /**
